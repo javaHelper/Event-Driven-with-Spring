@@ -23,3 +23,5 @@ http://localhost:8080/shop/analytics
     "video": "14%"
 }
 ````
+
+<img width="1372" alt="Screenshot 2022-12-18 at 5 24 20 PM" src="https://user-images.githubusercontent.com/54174687/208296947-91c9460e-14af-4ea1-b5ce-bf87001e0fa4.png">
