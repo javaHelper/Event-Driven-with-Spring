@@ -10,7 +10,7 @@ import java.util.function.Function;
 public class DemoApp {
     public static void main(String[] args) throws InterruptedException {
         Function<Message<String>, String> uppercase = FunctionLib.uppercase();
-        System.out.println(uppercase.apply(new GenericMessage<String>("hello")));
+        System.out.println(uppercase.apply(new GenericMessage<>("hello")));
         System.out.println("-------------");
 
         Function<Flux<Integer>, Tuple2<Flux<String>, Flux<String>>> router = FunctionLib.router();
